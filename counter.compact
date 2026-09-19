@@ -1,0 +1,14 @@
+pragma language_version >= 0.14.0;
+
+export contract Counter {
+    ledger count: Cell<Uint<32>>;
+
+    constructor() {
+        count.write(0);
+    }
+
+    export function increment(private_val: Uint<32>): Unit {
+        let current = count.read();
+        count.write(current + private_val);
+    }
+}
