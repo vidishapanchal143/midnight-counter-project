@@ -1,0 +1,12 @@
+{
+  "name": "midnight-counter-project",
+  "version": "1.0.0",
+  "description": "Midnight counter contract project",
+  "main": "index.js",
+  "scripts": {
+    "compile": "compact compile counter.compact"
+  },
+  "devDependencies": {
+    "@midnight-ntwrk/compact-compiler": "latest"
+  }
+}
