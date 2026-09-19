@@ -5,8 +5,5 @@
   "main": "index.js",
   "scripts": {
     "compile": "compact compile counter.compact"
-  },
-  "devDependencies": {
-    "@midnight-ntwrk/compact-compiler": "latest"
   }
 }
