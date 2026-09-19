@@ -12,3 +12,4 @@ export contract Counter {
         count.write(current + private_val);
     }
 }
+// Contract updated successfully
