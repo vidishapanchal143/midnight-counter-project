@@ -29,3 +29,13 @@ npx compact compile counter.compact
 5. **Run Tests:**
   Execute the test suite to verify contract functionality:
    npm test
+## Screenshots
+
+### 1. Successful Compile Output
+![Compile Output](Screenshot%202026-09-19%20144002.png)
+
+### 2. Contract Deployed Address
+![Deploy Address](Screenshot%202026-09-19%20144036.png)
+
+### 3. Additional Evidence / Setup
+![Setup Screenshot](Screenshot%202026-09-19%20144146.png)
